@@ -3,21 +3,6 @@
 # Examples for PostgreSQL, SQLite3 and SQL Server can be found at the end.
 # Line indentation must be 2 spaces (no tabs).
 
-production:
-  adapter: mysql2
-  database: redmine
-  host: localhost
-  username: root
-  password: ""
-  encoding: utf8
-
-development:
-  adapter: mysql2
-  database: redmine_development
-  host: localhost
-  username: root
-  password: ""
-  encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -32,11 +17,11 @@ test:
 
 # PostgreSQL configuration example
 #production:
-#  adapter: postgresql
-#  database: redmine
-#  host: localhost
-#  username: postgres
-#  password: "postgres"
+  adapter: postgresql
+  database: redmine
+  host: localhost
+  username: postgres
+  password: "postgres"
 
 # SQLite3 configuration example
 #production:
